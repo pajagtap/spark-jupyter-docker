@@ -31,8 +31,8 @@ docker exec -it spark-jupyter /bin/bash
 ```
 
 - To launch jupyter lab
-  a. Navigate to docker desktop app => Select the spark-jupyter container => Move to the logs tab
-  b. Look out for the _http://127.0.0.1:8888/lab/token?=************************_ => Copy the address
-  c. Open browser on host machine and paste and access JupyterLab
+  - Navigate to docker desktop app => Select the spark-jupyter container => Move to the logs tab
+  - Look out for the _http://127.0.0.1:8888/lab/token?=.........._ => Copy the address
+  - Open browser on host machine and paste and access JupyterLab
 
   
