@@ -13,7 +13,7 @@ Pre-requisite:
 Follow the steps below to get the setup running,
 1. Build docker image
    ```
-   docker build -t vengat-spark .
+   docker build -t spark-jupyter .
    ```
    ***Note: If you are running the behind any firewall, include the proxy in Dockerfile before image name.
 
