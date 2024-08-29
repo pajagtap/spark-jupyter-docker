@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  spark-jupyter:
+    image: spark-jupyter
+    container_name: spark-jupyter
+    volumes:
+      - /Users/pjagtap/apps/spark-standalone/sparkhome/home:/home
+    ports:
+      - '8888:8888'
+      - '4040:4040'
