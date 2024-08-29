@@ -23,3 +23,16 @@ Follow the steps below to get the setup running,
    docker compose up -d
    ```
    ***You can also run the docker image using ```docker run -p 8888:8888 -p 4040:4040 --name spark -d spark-jupyter```
+
+
+- You can access the docker container in interactive mode using
+```
+docker exec -it spark-jupyter /bin/bash
+```
+
+- To launch jupyter lab
+  a. Navigate to docker desktop app => Select the spark-jupyter container => Move to the logs tab
+  b. Look out for the _http://127.0.0.1:8888/lab/token?=************************_ => Copy the address
+  c. Open browser on host machine and paste and access JupyterLab
+
+  
